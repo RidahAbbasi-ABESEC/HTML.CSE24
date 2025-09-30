@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <!--TABLE INSERTION-->
+    <table border="1">
+        <caption>BIO DATA</caption>
+        <thead>
+        <tr>
+            <th>First name</th>
+            <th>Last name</th>
+            <th>Age</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Sumit</td>
+            <td>Kumar</td>
+            <td>32</td>
+        </tr>
+        <tr>
+            <td>Rekha</td>
+            <td>Singh</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>Ritu</td>
+            <td>Rai</td>
+            <td>55</td>
+        </tr>
+        <tfoot><tr><td colspan="3">footer</td></tr></tfoot>
+        </tbody>
+    </table>
+
+    <table border="1">
+        <caption>Employee Record</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ritu</td>
+                <td>55</td>
+                <td>UP</td>
+            </tr>
+            <tr>
+                <td>Rimjhim</td>
+                <td>18</td>
+                <td>Jaunpur</td>
+            </tr>
+            <tr>
+                <td>Saanvi</td>
+                <td>98</td>
+                <td>Banaras</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th colspan="2">Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jil</td>
+                <td>Smith</td>
+                <td>33</td>
+            </tr>
+            <tr>
+                <td>Sam</td>
+                <td>Jennifer</td>
+                <td>37</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table border="1" cellpadding="10px" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <td>Jil</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Phone</th>
+                <td>9818430881</td>
+            </tr>
+            <tr>
+                <td>9818938599</td>
+            </tr>
+        </thead>
+    </table>
+
+<!--NESTED TABLES-->
+<table>
+    <thead>
+        <tr><th>A</th></tr>
+        <td>1
+            <table>
+                <tr>
+                    <td>a</td>
+                    <td>b</td>
+                </tr>
+                
+            </table>
+        </td>
+    </thead>
+</table>
+
+<table border="1" cellspacing="0">
+        <thead>
+            <tr>
+                <th>main table r1 c1</th>
+                <td>
+                    <table border="1" cellspacing="0">
+                        <tr>
+                            <td>table 2 r1 c1</td>
+                            <td>table 2 r1 c2</td>
+                        </tr>
+                        <tr>
+                            <td>table 2 r2 c1</td>
+                            <td>table 2 r2 c2</td>
+                        </tr>
+                        <tr>
+                            <td>table 2 r3 c1</td>
+                            <td>table 2 r3 c2</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <th>main table r2 c1</th>
+                <td>main table r2 c2</td>
+            </tr>
+        </thead>
+    </table>
+
+
+</body>
+</html>
